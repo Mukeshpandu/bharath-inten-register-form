@@ -1,4 +1,85 @@
 body {
     color: white;
-    background-color: pink;
+    background-color: rgb(255, 8, 98);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+   
+    width: 330px;
+    height: 200px;
+    position: absolute;
+    top: 50px ;
+    left: 42% ;
+    background-color: rgb(18, 195, 222);
+    margin-top: 250px;
+    border-radius: 15px;
+    border: 1px solid black;
+    
+    
+
+}
+
+.container:hover{
+    background-color:rgb(9, 232, 84);
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration:double;
+}
+
+a{
+    font-size: large;
+    display: flex;
+}
+
+#login{
+
+    
+    background-color: rgb(12, 9, 219);
+    height: 30px;
+    border: 2px solid black;
+    width: 50px;
+    margin-top: 90px;
+    margin-left: 100px;
+    color: white;
+    transition: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup{
+    background-color: rgb(12, 9, 219);
+    border: 2px solid black;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 137px;
+    margin-left: 200px;
+    margin-bottom: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+#login:hover{
+    font-size: 20px;
+    border-radius: 15px;
+    
+}
+
+#signup:hover{
+    font-size: 20px;
+    border-radius: 15px;
 }
